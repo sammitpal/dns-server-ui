@@ -6,7 +6,7 @@ const DnsToggle = () => {
   const [runningState,setRunningState] = useState("")
 
   async function fetchStatus() {
-    const resp = await fetch('http://localhost:8080/status');
+    const resp = await fetch('http://3.7.180.250:8080/status');
     const data = await resp.json();
     setRunningState(data.serverStatus)
   }
