@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './DnsToggle.css';
 
 const DnsToggle = () => {
-  const [runningMessage, setRunningMessage] = useState(false);
   const [runningState,setRunningState] = useState("")
 
   async function fetchStatus() {
