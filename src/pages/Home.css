@@ -1,0 +1,15 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .activity, .blocklist, .reminders {
+    grid-column: span 1;
+  }
+  
+  .activity {
+    grid-column: span 2;
+  }
+  
